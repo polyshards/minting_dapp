@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xda101d41da88ec80505caa59e6b5372da7922bff",
+  "SCAN_LINK": "https://polygonscan.com/token/0xda101d41da88ec80505caa59e6b5372da7922bff",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Poly Shards",
+  "SYMBOL": "PSD",
+  "MAX_SUPPLY": 28,
+  "WEI_COST": 100000000000000000000,
+  "DISPLAY_COST": 100,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/PolyShards",
+  "SHOW_BACKGROUND": true
+}
