@@ -472,7 +472,7 @@ We pay back our moms.<br/>
 We lost the shards. 2 Poly Shards were saved (tokens held back from the sale) are airdropped to random PolyShardholders.<br/>
 <br/>
 40% -
-
+The official PolyShards Youtube channel will be created and content about upcoming events for the Poly Shard Ecosystem
 <br/>
 <br/>
 60% -
