@@ -409,56 +409,7 @@ function App() {
 When you buy a Poly shard, you’re not simply buying an avatar or a provably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Poly Shard can serve as your digital identity, and open digital doors for you.
           </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-              }}
-            >
-           Roadmap
-            </s.TextTitle>
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-        
-We’re in this for the long haul.<br/>
-<br/>
-
-We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.<br/>
-<br/>
-10% -
-
-We pay back our moms.<br/>
-<br/>
-20% -
-
-We lost the shards. 2 Poly Shards were saved (tokens held back from the sale) are airdropped to random PolyShardholders.<br/>
-<br/>
-40% -
-
- <br/>
-<br/>
-60% -
-
-Member-Exclusive PSD Merch Store gets unlocked, featuring Limited Edition tees, hoodies, and other goodies. PolyShardholders can claim an item for free<br/>
-<br/>
-80% - 
-
-The PSD club becomes interactive and the Mysterious Note becomes legible, beginning a treasure hunt. The first to solve the mystery will be rewarded 250 MATIC and Poly Shard. <br/>
-<br/>
-90% -
-
-The PSD liquidity pool is initiated. <br/>
- <br/>
-100% - 
-
-The Mutant Shards (NFT Breeding) Arcade Machine launched. And we cook up new ways to shard with our friends. <br/>
-          </s.TextDescription>
+         
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -490,17 +441,86 @@ The Mutant Shards (NFT Breeding) Arcade Machine launched. And we cook up new way
               textAlign: "center",
               color: "var(--primary-text)",
             }}
+          >     <s.TextTitle
+          style={{
+            textAlign: "center",
+            fontSize: 50,
+            fontWeight: "bold",
+            color: "var(--accent-text)",
+          }}
+        >
+       Roadmap
+        </s.TextTitle>
+      <s.TextDescription
+        style={{
+          textAlign: "center",
+          color: "var(--primary-text)",
+        }}
+      >
+    
+We’re in this for the long haul.<br/>
+<br/>
+
+We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.<br/>
+<br/>
+10% -
+
+We pay back our moms.<br/>
+<br/>
+20% -
+
+We lost the shards. 2 Poly Shards were saved (tokens held back from the sale) are airdropped to random PolyShardholders.<br/>
+<br/>
+40% -
+
+<br/>
+<br/>
+60% -
+
+Member-Exclusive PSD Merch Store gets unlocked, featuring Limited Edition tees, hoodies, and other goodies. PolyShardholders can claim an item for free<br/>
+<br/>
+80% - 
+
+The PSD club becomes interactive and the Mysterious Note becomes legible, beginning a treasure hunt. The first to solve the mystery will be rewarded 250 MATIC and Poly Shard. <br/>
+<br/>
+90% -
+
+The PSD liquidity pool is initiated. <br/>
+<br/>
+100% - 
+
+The Mutant Shards (NFT Breeding) Arcade Machine launched. And we cook up new ways to shard with our friends. <br/>
+            
+          </s.TextDescription>
+            
+          </s.TextDescription>
+         </s.Container>
+         </s.Container>
+        </ResponsiveWrapper>
+        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+          <s.SpacerLarge />
+          <s.Container
+            flex={2}
+            jc={"center"}
+            ai={"center"}
+            style={{
+              backgroundColor: "var(--accent)",
+              padding: 24,
+              borderRadius: 24,
+              border: "4px soild var(--secondary)",
+              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
+            }}
           >
-             <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-              }}
-            >
-           PSD CONTRACT ADDRESS
-            </s.TextTitle>
+            <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            
+           PSD CONTRACT ADDRESS :  <br/>
+          
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
